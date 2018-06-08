@@ -8,14 +8,13 @@
   background-color: pink;
 }
 input[type=text] {
-  border: 1px ;
-  border-color:lightblue;
+  border: 1px solid #555 ;
+  border-color:grey;
 }
 input[type=button] {
   border: 1px solid #555;
   border-color:grey;
-  padding-right: 20px;
 }
-input[type=radio] {
-  margin-left: 75px;
+ul{
+  list-style-type: none;
 }

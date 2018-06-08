@@ -1,40 +1,40 @@
 <!DOCTYPE html>
 <html lang=fr dir="ltr">
   <head>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="utf-8">
-    <title></title>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="utf-8" />
+    <title>1337</title>
   </head>
   <body>
     <form>
     <fieldset class="bloc1">
       <legend><div class=bloc1>votre identité</div></legend>
-        <label>
-          <p>1. nom : <input type="text":focus name="nom" placeholder="nom"/></p>
-          <p>2. prénom : <input type="text":focus name="prénom" placeholder="prénom"/></p>
-          <p>3. adresse mail : <input type="text":focus name="adresse email" placeholder="adresse email"/></p>
-        </label>
+        <ol>
+          <li><label for="nom"> nom : </label><input type="text":focus name="nom" placeholder="nom"/></li>
+          <li><label for="prénom"> prénom : </label><input type="text":focus name="prénom" placeholder="prénom"/></li>
+          <li><label for="email"> adresse mail : </label><input type="text":focus name="adresse email" placeholder="adresse email"/></li>
+        </ol>
       </fieldset>
     <fieldset class="bloc2">
       <legend><div class=bloc2>Adresse de livraison</div></legend>
-      <form>
-        <label>
-          <p>1. adresse : <textarea name="ameliorer" id="ameliorer"></textarea>
-          <p>2. code postal : <input type="text" name="prénom" placeholder="prénom"/></p>
-          <p>3. ville : <input type="text" name="adresse email" placeholder="adresse email"/></p>
-        </label>
+        <ol>
+          <li><label for="adresse"> adresse : <textarea name="box" id="box"></textarea></label></li>
+          <li><label for="code postal"> code postal : <input type="text" name="prénom" placeholder="prénom"/></label></li>
+          <li><label for="ville"> ville : <input type="text" name="adresse email" placeholder="adresse email"/></label></li>
+        </ol>
       </fieldset>
       <fieldset class="bloc3">
         <legend><div class=bloc3>information de reglement</div></legend>
-        <form>
-          <label>
-            <p>1. type de carte bancaire:</p>
-            <p><input type="radio" name="visa"/>VISA</p>
-            <p><input type="radio" name="mastercard"/>mastercard</p>
-            <p>2. numéro de carte : <input type="text" name="numéro de carte" placeholder="numéro de carte"/></p>
-            <p>3. code de sécurité : <input type="text" name="code de sécurité" placeholder="code de sécurité"/></p>
-            <p>4. nom du titulaire : <input type="text" name="nom du titulaire" placeholder="nom du titulaire"/></p>
-          </label>
+          <ol>
+            <li><label for="carte bancaire"> type de carte bancaire : </label></li>
+              <ul>
+                <li><input type="radio" name="visa"/><label for="visa">VISA</label></li>
+                <li><input type="radio" name="mastercard"/><label for="mastercard">mastercard</label></li>
+              </ul>
+            <li><label for="numéro de carte"> numéro de carte : </label><input type="text" name="numéro de carte" placeholder="numéro de carte"/></li>
+            <li><label for="code de sécurité"> code de sécurité : </label><input type="text" name="code de sécurité" placeholder="code de sécurité"/></li>
+            <li><label for="nom du titulaire"> nom du titulaire : </label><input type="text" name="nom du titulaire" placeholder="nom du titulaire"/></li>
+          </ol>
         </fieldset>
         <input type="button" value="J'ACHETE!!">
       </form>
